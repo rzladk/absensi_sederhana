@@ -11,7 +11,6 @@ if (isset($_POST['update'])) {// jika tombol update ditekan
     $nama = $_POST['nama'];// nama baru
     mysqli_query($conn, "UPDATE siswa SET nama='$nama' WHERE id=$id");// update nama siswa
     echo "<p class='success'>✅ Profil siswa berhasil diperbarui!</p>";//tampilkan pesan sukses
-    echo "<p><a href='index.php'>⬅️ Kembali ke Absensi</a></p>";// link kembali ke absensi
 }
 
 $siswa = mysqli_query($conn, "SELECT * FROM siswa ORDER BY nama ASC");// ambil semua data siswa
