@@ -6,10 +6,10 @@ if (!isset($_SESSION['user'])) {
 }
 include "db.php";
 
-if (isset($_GET['hapus'])) {
-    $id = $_GET['hapus'];
-    mysqli_query($conn, "DELETE FROM siswa WHERE id=$id");
-    echo "<p class='success'>✅ Data siswa & semua absensinya berhasil dihapus!</p>";
+if (isset($_GET['hapus'])) {// jika tombol hapus ditekan
+    $id = $_GET['hapus'];// dapatkan id siswa
+    mysqli_query($conn, "DELETE FROM siswa WHERE id=$id");// hapus data siswa
+    echo "<p class='success'>✅ Data siswa & semua absensinya berhasil dihapus!</p>";// tampilkan pesan sukses
 }
 ?>
 <!DOCTYPE html>
