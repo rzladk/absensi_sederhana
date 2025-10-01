@@ -38,7 +38,7 @@ if (isset($_POST['simpan'])) {// jika tombol simpan ditekan
 
 <body>
     <div class="container">
-        <h2>📝 Form Absensi</h2>
+        <h2>Form Absensi Kursus Online</h2>
         <form method="POST">
             <label>Nama Siswa:</label>
             <input type="text" name="nama" required>
