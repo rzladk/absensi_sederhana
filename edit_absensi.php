@@ -39,6 +39,10 @@ if (isset($_POST['update'])) {// jika tombol update ditekan
 </head>
 
 <body>
+    <header>
+    <img src="/img/logo techno.jpg" alt="Logo Techno Informatika">
+    <h1>Techno Informatika - Sistem Absensi</h1>
+</header>
     <div class="container">
         <h2>📝 Edit Absensi</h2>
         <form method="POST">

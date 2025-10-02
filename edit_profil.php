@@ -23,6 +23,10 @@ $siswa = mysqli_query($conn, "SELECT * FROM siswa ORDER BY nama ASC");// ambil s
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+    <img src="img/logo techno.jpg" alt="Logo Techno Informatika">
+    <h1>Techno Informatika - Sistem Absensi</h1>
+</header>
 <div class="container">
     <h2>👤 Edit Profil Siswa</h2>
     <form method="POST">

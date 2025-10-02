@@ -29,6 +29,10 @@ if (isset($_POST['login'])) {   // jika tombol login ditekan
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+    <img src="img/logo techno.jpg" alt="Logo Techno Informatika">
+    <h1>Techno Informatika - Sistem Absensi</h1>
+</header>
 <div class="container">
     <h2>🔑 Login</h2>
     <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
